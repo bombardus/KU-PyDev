@@ -9,3 +9,9 @@
 # Wskazówka: a, b = b, a + b
 
 # TODO: Twój kod poniżej
+n :int = int(input("Podaj liczbę wyrazów ciągu Fibonacciego: "))
+a :int = 0
+b :int = 1
+for i in range(n):
+    print(a,end=" ")
+    a, b = b, a + b 

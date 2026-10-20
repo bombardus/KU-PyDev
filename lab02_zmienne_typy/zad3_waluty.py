@@ -10,4 +10,10 @@
 EUR_RATE = 4.25   # 1 EUR = 4.25 PLN
 USD_RATE = 3.80   # 1 USD = 3.80 PLN
 
+
 # TODO: Twój kod poniżej
+ile :float = float(input("Podaj kwotę w złotych: "))
+eur :float = ile / EUR_RATE
+usd :float = ile / USD_RATE 
+print(f"{ile:.2f} PLN = {eur:.2f} EUR")
+print(f"{ile:.2f} PLN = {usd:.2f} USD")

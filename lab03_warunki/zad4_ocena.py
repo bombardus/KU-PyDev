@@ -13,3 +13,16 @@
 # Uwaga: w zachęcie input() nie wypisuj liczb (np. „0-100”) – testy szukają liczb w wyjściu.
 
 # TODO: Twój kod poniżej
+ocena :int = int(input("Podaj liczbę punktów: "))
+if ocena > 91:
+    print("Ocena: 5")
+elif ocena > 83:
+    print("Ocena: 4.5")
+elif ocena > 75:
+    print("Ocena: 4")
+elif ocena > 67:  
+    print("Ocena: 3.5")
+elif ocena > 60:
+    print("Ocena: 3")
+else:
+    print("Ocena: 2")

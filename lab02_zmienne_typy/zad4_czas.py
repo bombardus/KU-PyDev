@@ -10,3 +10,9 @@
 #   - 1 h = 3600 s, 1 min = 60 s
 
 # TODO: Twój kod poniżej
+czas :int = int(input("Podaj liczbę sekund: "))
+godziny :int = czas // 3600
+pozostale_sekundy :int = czas % 3600
+minuty :int = pozostale_sekundy // 60
+pozostale_sekundy = pozostale_sekundy % 60
+print(f"{godziny} h {minuty} min {pozostale_sekundy} s")

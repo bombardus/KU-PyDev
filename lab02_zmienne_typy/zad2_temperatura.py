@@ -9,3 +9,6 @@
 # Wyniki zaokrąglij do 1 miejsca po przecinku: f"{x:.1f}"
 
 # TODO: Twój kod poniżej
+temp :float = float(input("Podaj temperaturę w stopniach Celsjusza: "))
+fahrenheit :float = temp * 9 / 5 + 32
+print(f"{temp} °C = {fahrenheit:.1f} °F")
